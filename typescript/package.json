@@ -1,0 +1,21 @@
+{
+    "name": "stripelistener",
+    "version": "0.1.0",
+    "description": "Stripe WebSocket Listener",
+    "type": "module",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "example": "ts-node example/main.ts"
+    },
+    "dependencies": {
+        "ws": "^8.16.0"
+    },
+    "devDependencies": {
+        "@types/node": "^20.11.0",
+        "@types/ws": "^8.5.10",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.3.3"
+    }
+}
